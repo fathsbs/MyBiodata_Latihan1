@@ -4,15 +4,235 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/myProPic"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/me"></ImageView>
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/myProPic"
+                android:layout_centerInParent="true"
+                android:layout_margin="2dp"
+                android:text="Fatahillah Satria Bima Seno"
+                android:textColor="@color/white"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:id="@+id/nim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nama"
+                android:layout_centerInParent="true"
+                android:layout_margin="2dp"
+                android:text="10118039"
+                android:textColor="@color/white"
+                android:textSize="16sp"></TextView>
+
+            <TextView
+                android:id="@+id/kelas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nim"
+                android:layout_centerInParent="true"
+                android:layout_margin="2dp"
+                android:text="AKB-1"
+                android:textColor="@color/white"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/JK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kelas"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"
+                android:text="Laki-Laki"
+                android:textColor="@color/white"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/TTL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/JK"
+                android:layout_centerInParent="true"
+
+                android:text="Jakarta, 02 November 1998"
+                android:textColor="@color/white"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/alamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TTL"
+                android:layout_centerInParent="true"
+                android:text="Jl. Saluran No.15"
+                android:textColor="@color/white"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/golDdar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/alamat"
+                android:layout_centerInParent="true"
+
+                android:text="A + "
+                android:textColor="@color/white"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/kesukaanMakan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/golDdar"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"
+                android:text="Makanan Kesukaan:"
+                android:textColor="@color/white"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/makanan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kesukaanMakan"
+                android:layout_centerInParent="true"
+
+                android:text="Nasi Padang"
+                android:textColor="@color/white"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/kesukaanMinum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/makanan"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"
+                android:text="Minuman Kesukaan:"
+                android:textColor="@color/white"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/minuman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kesukaanMinum"
+                android:layout_centerInParent="true"
+                android:text="Jus Mangga"
+                android:textColor="@color/white"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/hobi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/minuman"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"
+                android:text="Hobi:"
+                android:textColor="@color/white"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/hobinya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hobi"
+                android:layout_centerInParent="true"
+
+                android:text="Merangkai cerita"
+                android:textColor="@color/white"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/lagufavorit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hobinya"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"
+                android:text="Lagu Favorit:"
+                android:textColor="@color/white"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/lagu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lagufavorit"
+                android:layout_centerInParent="true"
+                android:text="Line Without The Hook by Ricky Montgomery"
+                android:textColor="@color/white"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/filmfavorit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lagu"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"
+                android:text="Film Favorit:"
+                android:textColor="@color/white"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/film"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/filmfavorit"
+                android:layout_centerInParent="true"
+
+                android:text="Interstellar"
+                android:textColor="@color/white"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/inginPekerjaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/film"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"
+                android:text="Pekerjaan yang diinginkan:"
+                android:textColor="@color/white"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/pekerjaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/inginPekerjaan"
+                android:layout_centerInParent="true"
+                android:text="Data Scientist"
+                android:textColor="@color/white"
+                android:textSize="14sp"></TextView>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
