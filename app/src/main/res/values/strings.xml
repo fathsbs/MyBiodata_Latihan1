@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">mybiodata</string>
+    <string name="nama">Fatahillah Satria Bima Seno</string>
+    <string name="nim">10118039</string>
+    <string name="kelas">AKB-1</string>
+    <string name="jenisKelamin">Laki-Laki</string>
+    <string name="TTL">Jakarta, 02 November 1998</string>
+    <string name="alamatRumah">Jl. Saluran No.15</string>
+    <string name="golonganDarah">A +</string>
+    <string name="headMakanan">Makanan Kesukaan:</string>
+    <string name="makananKesukaan">Nasi Padang</string>
+    <string name="headMinuman">Minuman Kesukaan:</string>
+    <string name="minumanKesukaan">Jus Mangga</string>
+    <string name="headHobi">Hobi:</string>
+    <string name="hobi">Merangkai Cerita</string>
+    <string name="headLagu">Lagu Favorit:</string>
+    <string name="lagu">Line Without The Hook by Ricky Montgomery</string>
+    <string name="headFilm">Film:</string>
+    <string name="film">Interstellar</string>
+    <string name="headPekerjaan">Pekerjaan Impian:</string>
+    <string name="pekerjaan">Data Scientist</string>
 </resources>

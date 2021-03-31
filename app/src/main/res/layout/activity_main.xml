@@ -20,8 +20,8 @@
             <ImageView
                 android:id="@+id/myProPic"
                 android:layout_width="wrap_content"
-                android:layout_height="120dp"
-                android:layout_marginTop="25dp"
+                android:layout_height="@dimen/dimen120dp"
+                android:layout_marginTop="@dimen/dimen25dp"
                 android:src="@drawable/me"></ImageView>
 
             <TextView
@@ -30,10 +30,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/myProPic"
                 android:layout_centerInParent="true"
-                android:layout_margin="2dp"
-                android:text="Fatahillah Satria Bima Seno"
+                android:layout_margin="@dimen/dimen2dp"
+                android:text="@string/nama"
                 android:textColor="@color/white"
-                android:textSize="20sp"></TextView>
+                android:textSize="@dimen/dimen20sp"></TextView>
 
             <TextView
                 android:id="@+id/nim"
@@ -41,10 +41,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/nama"
                 android:layout_centerInParent="true"
-                android:layout_margin="2dp"
-                android:text="10118039"
+                android:layout_margin="@dimen/dimen2dp"
+                android:text="@string/nim"
                 android:textColor="@color/white"
-                android:textSize="16sp"></TextView>
+                android:textSize="@dimen/dimen16sp"></TextView>
 
             <TextView
                 android:id="@+id/kelas"
@@ -52,10 +52,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/nim"
                 android:layout_centerInParent="true"
-                android:layout_margin="2dp"
-                android:text="AKB-1"
+                android:layout_margin="@dimen/dimen2dp"
+                android:text="@string/kelas"
                 android:textColor="@color/white"
-                android:textSize="14sp"></TextView>
+                android:textSize="@dimen/dimen14sp"></TextView>
 
             <TextView
                 android:id="@+id/JK"
@@ -63,10 +63,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/kelas"
                 android:layout_centerInParent="true"
-                android:layout_marginTop="15dp"
-                android:text="Laki-Laki"
+                android:layout_marginTop="@dimen/dimen15dp"
+                android:text="@string/jenisKelamin"
                 android:textColor="@color/white"
-                android:textSize="14sp"></TextView>
+                android:textSize="@dimen/dimen14sp"></TextView>
 
             <TextView
                 android:id="@+id/TTL"
@@ -74,10 +74,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/JK"
                 android:layout_centerInParent="true"
-
-                android:text="Jakarta, 02 November 1998"
+                android:text="@string/TTL"
                 android:textColor="@color/white"
-                android:textSize="14sp"></TextView>
+                android:textSize="@dimen/dimen14sp"></TextView>
 
             <TextView
                 android:id="@+id/alamat"
@@ -85,9 +84,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/TTL"
                 android:layout_centerInParent="true"
-                android:text="Jl. Saluran No.15"
+                android:text="@string/alamatRumah"
                 android:textColor="@color/white"
-                android:textSize="14sp"></TextView>
+                android:textSize="@dimen/dimen14sp"></TextView>
 
             <TextView
                 android:id="@+id/golDdar"
@@ -95,10 +94,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/alamat"
                 android:layout_centerInParent="true"
-
-                android:text="A + "
+                android:text="@string/golonganDarah"
                 android:textColor="@color/white"
-                android:textSize="14sp"></TextView>
+                android:textSize="@dimen/dimen14sp"></TextView>
 
             <TextView
                 android:id="@+id/kesukaanMakan"
@@ -106,8 +104,8 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/golDdar"
                 android:layout_centerInParent="true"
-                android:layout_marginTop="15dp"
-                android:text="Makanan Kesukaan:"
+                android:layout_marginTop="@dimen/dimen15dp"
+                android:text="@string/headMakanan"
                 android:textColor="@color/white"
                 android:textSize="14sp"></TextView>
 
@@ -117,10 +115,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/kesukaanMakan"
                 android:layout_centerInParent="true"
-
-                android:text="Nasi Padang"
+                android:text="@string/makananKesukaan"
                 android:textColor="@color/white"
-                android:textSize="14sp"></TextView>
+                android:textSize="@dimen/dimen14sp"></TextView>
 
             <TextView
                 android:id="@+id/kesukaanMinum"
@@ -128,10 +125,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/makanan"
                 android:layout_centerInParent="true"
-                android:layout_marginTop="15dp"
-                android:text="Minuman Kesukaan:"
+                android:layout_marginTop="@dimen/dimen15dp"
+                android:text="@string/headMinuman"
                 android:textColor="@color/white"
-                android:textSize="14sp"></TextView>
+                android:textSize="@dimen/dimen14sp"></TextView>
 
             <TextView
                 android:id="@+id/minuman"
@@ -139,9 +136,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/kesukaanMinum"
                 android:layout_centerInParent="true"
-                android:text="Jus Mangga"
+                android:text="@string/minumanKesukaan"
                 android:textColor="@color/white"
-                android:textSize="14sp"></TextView>
+                android:textSize="@dimen/dimen14sp"></TextView>
 
             <TextView
                 android:id="@+id/hobi"
@@ -149,10 +146,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/minuman"
                 android:layout_centerInParent="true"
-                android:layout_marginTop="15dp"
-                android:text="Hobi:"
+                android:layout_marginTop="@dimen/dimen15dp"
+                android:text="@string/headHobi"
                 android:textColor="@color/white"
-                android:textSize="14sp"></TextView>
+                android:textSize="@dimen/dimen14sp"></TextView>
 
             <TextView
                 android:id="@+id/hobinya"
@@ -160,10 +157,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/hobi"
                 android:layout_centerInParent="true"
-
-                android:text="Merangkai cerita"
+                android:text="@string/hobi"
                 android:textColor="@color/white"
-                android:textSize="14sp"></TextView>
+                android:textSize="@dimen/dimen14sp"></TextView>
 
             <TextView
                 android:id="@+id/lagufavorit"
@@ -171,10 +167,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/hobinya"
                 android:layout_centerInParent="true"
-                android:layout_marginTop="15dp"
-                android:text="Lagu Favorit:"
+                android:layout_marginTop="@dimen/dimen15dp"
+                android:text="@string/headLagu"
                 android:textColor="@color/white"
-                android:textSize="14sp"></TextView>
+                android:textSize="@dimen/dimen14sp"></TextView>
 
             <TextView
                 android:id="@+id/lagu"
@@ -182,9 +178,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/lagufavorit"
                 android:layout_centerInParent="true"
-                android:text="Line Without The Hook by Ricky Montgomery"
+                android:text="@string/lagu"
                 android:textColor="@color/white"
-                android:textSize="14sp"></TextView>
+                android:textSize="@dimen/dimen14sp"></TextView>
 
             <TextView
                 android:id="@+id/filmfavorit"
@@ -192,10 +188,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/lagu"
                 android:layout_centerInParent="true"
-                android:layout_marginTop="15dp"
-                android:text="Film Favorit:"
+                android:layout_marginTop="@dimen/dimen15dp"
+                android:text="@string/headFilm"
                 android:textColor="@color/white"
-                android:textSize="14sp"></TextView>
+                android:textSize="@dimen/dimen14sp"></TextView>
 
             <TextView
                 android:id="@+id/film"
@@ -203,10 +199,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/filmfavorit"
                 android:layout_centerInParent="true"
-
-                android:text="Interstellar"
+                android:text="@string/film"
                 android:textColor="@color/white"
-                android:textSize="14sp"></TextView>
+                android:textSize="@dimen/dimen14sp"></TextView>
 
             <TextView
                 android:id="@+id/inginPekerjaan"
@@ -214,10 +209,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/film"
                 android:layout_centerInParent="true"
-                android:layout_marginTop="15dp"
-                android:text="Pekerjaan yang diinginkan:"
+                android:layout_marginTop="@dimen/dimen15dp"
+                android:text="@string/headPekerjaan"
                 android:textColor="@color/white"
-                android:textSize="14sp"></TextView>
+                android:textSize="@dimen/dimen14sp"></TextView>
 
             <TextView
                 android:id="@+id/pekerjaan"
@@ -225,10 +220,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/inginPekerjaan"
                 android:layout_centerInParent="true"
-                android:text="Data Scientist"
+                android:text="@string/pekerjaan"
                 android:textColor="@color/white"
-                android:textSize="14sp"></TextView>
-
+                android:textSize="@dimen/dimen14sp"></TextView>
 
         </RelativeLayout>
 
